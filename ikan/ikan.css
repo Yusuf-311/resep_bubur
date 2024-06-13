@@ -1,0 +1,18 @@
+.box {
+  width: 100px;
+  height: 100px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  animation: rotateAround 4s linear infinite;
+}
+
+@keyframes rotateAround {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
